@@ -1,0 +1,21 @@
+﻿# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment and secrets (Invariant E2)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# State & Cache files
+.kill_switch_active.json
+.pytest_cache/
+*.log
+qa-artifacts/
